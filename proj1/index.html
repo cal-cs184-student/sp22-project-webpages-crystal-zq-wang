@@ -26,6 +26,7 @@ triangle.</p>
 <figure>
 <img
 src="./image1.png"
+width=1000
 alt="basic/test4.svg, with the pixel inspector on a skinny part of the red triangle. I found this interesting because the jaggies are very evident!" />
 <figcaption aria-hidden="true">basic/test4.svg, with the pixel inspector
 on a skinny part of the red triangle. I found this interesting because
@@ -59,6 +60,7 @@ the manner of
 <figure>
 <p><img
 src="./image2.png"
+width=1000
 alt="basic/test4.svg, sample rate 1" /> 
 <figcaption aria-hidden="true">basic/test4.svg, sample rate 1</figcaption>
 </figure>
@@ -66,11 +68,13 @@ alt="basic/test4.svg, sample rate 1" />
 <figure>
 <p><img
 src="./image3.png"
+width=1000
 alt="basic/test4.svg, sample rate 4" /></p>
  <figcaption aria-hidden="true">basic/test4.svg, sample rate 4</figcaption>
 </figure>
 <img
 src="./image4.png"
+width=1000
 alt="basic/test4.svg, sample rate 16" />
 <figcaption aria-hidden="true">basic/test4.svg, sample rate
 16</figcaption>
@@ -86,7 +90,7 @@ noise-cancelling headphones</strong>: I was trying to angle the left arm
 up in a waving position and have the right leg kick back at an
 angle.</p>
 <p><img
-src="./image5.png" /></p>
+src="./image5.png" width=1000 /></p>
 <h2 id="task-4">Task 4</h2>
 <p>Barycentric coordinates are a coordinate system in which any point in
 two-dimensional space is described as the weighted combination of the
@@ -97,13 +101,14 @@ the given coordinate. The sum of these coordinate weights is always
 <figure>
 <img
 src="./image6.png"
-width=600 alt="a triangle with the vertices being colored red, blue and green." />
+width=1000 alt="a triangle with the vertices being colored red, blue and green." />
 <figcaption aria-hidden="true">a triangle with the vertices being
 colored red, blue and green.</figcaption>
 </figure>
 <figure>
 <img
 src="./image7.png"
+width=1000
 alt="svg/basic/test7.svg with default viewing parameters and sample rate 1" />
 <figcaption aria-hidden="true">svg/basic/test7.svg with default viewing
 parameters and sample rate 1</figcaption>
@@ -123,24 +128,37 @@ passed-in argument <code>uv</code> is technically in the range of [0, 1]
 – it’s a weight, not an actual measure of the location on the texture
 space, and must therefore be scaled by the height and width of the
 texture in both cases.</p>
+<figure>
 <p><img
 src="./image8.png"
-width=600
+width=1000
 alt="Nearest sampling" /> 
+<figcaption aria-hidden="true">nearest sampling</figcaption>
+</figure>
+<figure>
  <img
 src="./image9.png"
-width=600
-alt="Bilinear sampling" /></p>
-<p><img
+width=1000
+alt="Bilinear sampling" />
+<figcaption aria-hidden="true">bilinear sampling</figcaption>
+</p>
+</figure>
+<p><figure><img
 src="./image10.png"
-alt="Nearest sampling, 1 sample/pixel" /> <img
+width=1000
+alt="Nearest sampling, 1 sample/pixel" /><figcaption aria-hidden="true">Nearest sampling, 1 sample/pixel</figcaption></figure>
+<figure><img
 src="./image11.png"
-alt="Nearest sampling, 16 samples/pixel" /></p>
-<p><img
+width=1000
+alt="Nearest sampling, 16 samples/pixel" /><figcaption aria-hidden="true">Nearest sampling, 16 samples/pixel</figcaption></figure></p>
+<p><figure><img
 src="./image12.png"
-alt="Bilinear sampling, 1 sample/pixel" /> <img
+width=1000
+alt="Bilinear sampling, 1 sample/pixel" /><figcaption aria-hidden="true">Bilinear sampling, 1 sample/pixel</figcaption></figure>
+<figure><img
 src="./image13.png"
-alt="Bilinear sampling, 16 samples/pixel" /></p>
+width=1000
+alt="Bilinear sampling, 16 samples/pixel" /><figcaption aria-hidden="true">Bilinear sampling, 16 samples/pixel</figcaption></figure></p>
 <p>I find that the biggest difference is in when there are sharp lines
 between two colors — like in the letters in the images above. Notice how
 the word “Berkeley” looks jagged in nearest sampling, and clearer and
@@ -169,13 +187,19 @@ than zero-level sampling.</li>
 increases, and definitely keeps getting more and more memory intensive.
 Antialiasing power also increases.</li>
 </ul>
-<p><img
+<p><figure><img
 src="./image14.png"
-alt="Zero Level, Nearest Pixel Sampling" /> <img
+width=1000
+alt="Zero Level, Nearest Pixel Sampling" /><figcaption aria-hidden="true">Zero Level, Nearest Pixel Sampling</figcaption></figure>
+<figure><img
 src="./image15.png"
-alt="Zero Level, Bilinear Pixel Sampling" /></p>
-<p><img
+width=1000
+alt="Zero Level, Bilinear Pixel Sampling" /><figcaption aria-hidden="true">Zero Level, Bilinear Pixel Sampling</figcaption></figure></p>
+<p><figure><img
 src="./image16.png"
-alt="Nearest Level, Nearest Pixel Sampling" /> <img
+width=1000
+alt="Nearest Level, Nearest Pixel Sampling" /><figcaption aria-hidden="true">Nearest Level, Nearest Pixel Sampling</figcaption></figure>
+<figure><img
 src="./image17.png"
-alt="Bilinear Level Interpolation, Nearest Pixel Sampling" /></p>
+width=1000
+alt="Nearest Level, Bilinear Pixel Sampling" /><figcaption aria-hidden="true">Nearest Level, Bilinear Pixel Sampling</figcaption></figure></p>
