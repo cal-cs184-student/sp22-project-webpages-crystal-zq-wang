@@ -56,19 +56,30 @@ buffer size to accommodate all the samples we took for each pixel, we
 reoriented the indexing of the sample buffer so that it was ordered in
 the manner of
 <code>[pixel 1 sample 1, pixel 1 sample 2, … , pixel n sample m]</code>.</p>
+<figure>
 <p><img
 src="https://paper-attachments.dropbox.com/s_31E418C4698438C0F670A15712DF85A5C1A9B10DA0219BC3DD8DB1B1EAFA3459_1644958146878_screenshot_2-15_12-45-42.png"
-alt="basic/test4.svg, sample rate 1" /> <img
+alt="basic/test4.svg, sample rate 1" /> 
+<figcaption aria-hidden="true">basic/test4.svg, sample rate 1</figcaption>
+</figure>
+
+<figure>
+<p><img
 src="https://paper-attachments.dropbox.com/s_31E418C4698438C0F670A15712DF85A5C1A9B10DA0219BC3DD8DB1B1EAFA3459_1644958146885_screenshot_2-15_12-45-54.png"
 alt="basic/test4.svg, sample rate 4" /></p>
-<figure>
+ <figcaption aria-hidden="true">basic/test4.svg, sample rate 4</figcaption>
+</figure>
 <img
 src="https://paper-attachments.dropbox.com/s_31E418C4698438C0F670A15712DF85A5C1A9B10DA0219BC3DD8DB1B1EAFA3459_1644958146897_screenshot_2-15_12-46-6.png"
 alt="basic/test4.svg, sample rate 16" />
 <figcaption aria-hidden="true">basic/test4.svg, sample rate
 16</figcaption>
 </figure>
-<pre><code>We observe these resulting differences from the three images with different sample rates because the more samples we take per pixel, the better the final rendered color will blend into the surrounding pixels and the image’s edges will blur out. When we only sample once per pixel, there is clearly no gradual attempt to blend colors (as seen in the pixel inspector), so the corner of the triangle appears very jagged and even discontinuous. On the other hand, for 4 and 16 samples per pixel, we see pixels in the pixel inspector that take on colors between red and white, which allow for a “softer” appearance and more natural edges/lines than just singular sampling can achieve.</code></pre>
+<pre>We observe these resulting differences from the three images with different sample rates because the more samples we take per pixel, 
+the better the final rendered color will blend into the surrounding pixels and the image’s edges will blur out. When we only sample once 
+per pixel, there is clearly no gradual attempt to blend colors (as seen in the pixel inspector), so the corner of the triangle appears
+very jagged and even discontinuous. On the other hand, for 4 and 16 samples per pixel, we see pixels in the pixel inspector that take 
+on colors between red and white, which allow for a “softer” appearance and more natural edges/lines than just singular sampling can achieve.</pre>
 <h2 id="task-3">Task 3</h2>
 <p><strong>Air traffic controller who’s blasting jams through their
 noise-cancelling headphones</strong>: I was trying to angle the left arm
